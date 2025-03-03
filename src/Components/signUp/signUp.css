@@ -1,0 +1,70 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.climate-crisis-text {
+  font-family: "Climate Crisis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings: "YEAR" 1999;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signUpContainer {
+  flex-direction: column;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 64vh;
+  width: 40vw;
+  margin-top: 12vh;
+  border-radius: 4vh;
+}
+
+.signUpContainer .signUpLabel {
+  font-size: 5.6vh;
+  padding: 6px;
+  margin-bottom: 2vh;
+  font-family: "Climate Crisis", sans-serif; /* Apply font here */
+}
+
+.signUpContainer .signUpInputs {
+  height: 8vh;
+  width: 20vw;
+  border-radius: 4vh;
+  padding: 16px;
+  margin: 12px;
+  font-size: 2.4vh;
+  outline: none;
+  border: none;
+}
+
+.signUpContainer .signUpButt {
+  height: 8vh;
+  width: 10vw;
+  border-radius: 12vh;
+  padding: 8px;
+  margin: 12px;
+  font-size: 2.4vh;
+  outline: none;
+  border: 2px rgb(255, 255, 255) solid;
+  background-color: black;
+  color: white;
+}
+
+.signUpButt:hover {
+  background-color: white;
+  color: black;
+}
+
+.link {
+  font-size: 18px;
+}
