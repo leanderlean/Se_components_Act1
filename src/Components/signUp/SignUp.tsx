@@ -30,10 +30,10 @@ const SignUp: React.FC<SignUpProps> = () => {
     }
 
     try {
-      const response = await fetch("http://localhost:5000/signup", {
+      const response = await fetch("http://localhost:5000/api/auth/signup", {
         method: "POST",
-        headers: {"Content-Type": "application/json"},
-        body: JSON.stringify({email, userName, password})
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, userName, password }),
       });
 
       const data = await response.json();
@@ -43,13 +43,12 @@ const SignUp: React.FC<SignUpProps> = () => {
         return;
       }
 
-    console.log("Account created!");
-    alert(`Welcome ${userName}!`);
-    window.location.href = "/Home";
-    } catch(error) {
-      setError("Something went Wrong!")
+      console.log("Account created!");
+      alert(`Welcome ${userName}!`);
+      window.location.href = "/Home";
+    } catch (error) {
+      setError("Something went Wrong!");
     }
-    
   };
 
   return (
@@ -81,8 +80,12 @@ const SignUp: React.FC<SignUpProps> = () => {
           onChange={(e) => setPassword(e.target.value)}
         />
 
-        <button onClick={handleSubmit} className="signUpButt">Sign Up</button>
-        <p className="link">Already have an account? <a href="/login">Log In</a></p>
+        <button onClick={handleSubmit} className="signUpButt">
+          Sign Up
+        </button>
+        <p className="link">
+          Already have an account? <a href="/login">Log In</a>
+        </p>
 
         {error && <p className="error">{error}</p>}
       </div>
