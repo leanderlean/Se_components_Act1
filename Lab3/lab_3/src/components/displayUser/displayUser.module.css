@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(61, 61, 61);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.label {
+    position: inherit;
+    font-size: 12vh;
+}
+
+.individualContainer {
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    border-radius: 20px;
+    width: 30vw;
+    padding: 12px;
+}
+
+.info {
+    color: black;
+    font-size: 3.2vh;
+}
+
+.edit {
+    background-color: white;
+    color: yellowgreen;
+    border: 1.2px solid yellowgreen;
+    margin-left: 120px;
+    margin-right: 20px;
+}
+
+.edit:hover {
+    background-color: yellowgreen;
+    color: white;
+    border: 1.2px solid yellowgreen;
+}
+
+
+.delete {
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 1.2px solid rgb(0, 0, 0);
+    margin-left: 20px;
+    margin-right: 20px;
+}

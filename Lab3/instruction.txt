@@ -1,0 +1,27 @@
+Hello good morning. Sorry because I forgot to send your activity yesterday. Your activity for this week is:
+
+FRONTEND
+
+Create a component with the ability to add, edit, display, and delete data. 
+
+Inside the component, create a form with the following fields and send the data to the backend:
+
+firstName
+lastName
+groupName
+role
+expectedSalary
+expectedDateOfDefense
+
+
+BACKEND
+
+Create a router file that handles the operations of your data
+
+GET - returns all data
+POST - creates new data
+PUT - update a specific data
+DELETE - deletes a specific data
+
+
+It's up to you how you would tackle this. The goal is to show me if you know how to do basic CRUD operations. 🙂

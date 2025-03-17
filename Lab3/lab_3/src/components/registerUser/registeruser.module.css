@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+.label {
+    color: rgb(255, 255, 255);
+    padding: 28px;
+    font-size: 4.8vh;
+}
+
+.formContainer {
+    height: 80vh;
+    width: 40vw;
+    background-color:#002670;
+    border-radius: 12px;
+}
+
+input {
+    height: 8vh;
+    border-radius: 4vw;
+    width: 32vw;
+    margin-top: 16px;
+    padding-left: 12px;
+    outline: 0;
+    border: 1.2px solid grey;
+    font-size: 16px;
+    color: black;
+    background-color: white;
+}
+
+.regButton {
+    background-color: white;
+    color: #002670;
+    margin-top: 12px;
+    width: 12vw;
+    height: 8vh;
+    border-radius: 40px;
+    outline: 0;
+    font-size: 20px;
+}
+
+.regButton:hover {
+    background-color: aliceblue;
+    color: black;
+}
